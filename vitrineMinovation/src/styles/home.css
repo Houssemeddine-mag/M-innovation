@@ -1,0 +1,405 @@
+.service-icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+  display: block;
+}
+
+.hero-content .cta-btn {
+  margin-top: 2.2rem;
+  font-size: 1.15rem;
+  padding: 1rem 2.5rem;
+  border-radius: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.hero-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.5rem;
+}
+.hero-content {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.hero-logo-float {
+  width: 180px;
+  height: 180px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 32px rgba(0, 0, 0, 0.18));
+  margin-right: 4vw;
+  margin-left: 2vw;
+  z-index: 1;
+  user-select: none;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: floatY 4s ease-in-out infinite;
+}
+@keyframes floatY {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  80% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* Why Choose Us Section */
+.why-choose-us-section {
+  margin: 3.5rem auto 1.5rem auto;
+  max-width: 900px;
+  background: linear-gradient(90deg, #001d36 0%, #023356 100%);
+  border-radius: 2.5rem;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem 2rem 2.2rem 2rem;
+  color: #fff;
+  text-align: center;
+}
+.why-title {
+  font-size: 2.1rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+  color: #00bfff;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+.why-intro {
+  font-size: 1.15rem;
+  margin-bottom: 2.2rem;
+  color: #e0eaff;
+}
+.why-features-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.why-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #fff;
+  min-width: 120px;
+  max-width: 180px;
+  gap: 0.7rem;
+}
+.why-icon {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 0.2rem;
+  filter: invert(1) brightness(2) drop-shadow(0 2px 12px rgba(0, 0, 0, 0.13));
+}
+.centered-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.stylish-gradient {
+  background: linear-gradient(135deg, #001d36 60%, #023356 100%);
+  color: #fff;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+}
+.stylish-gradient h3,
+.stylish-gradient p {
+  color: #fff;
+}
+
+.trust-statement {
+  text-align: center;
+  margin: 0 auto 2.5rem auto;
+  max-width: 700px;
+  background: #fff;
+  color: #001d36;
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+.trust-statement strong {
+  color: #023356;
+  font-size: 1.15em;
+}
+.modern-services {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.horizontal-scroll {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  overflow-x: auto;
+  padding-bottom: 1rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #023356 #e0e6ed;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  height: 10px;
+}
+.horizontal-scroll::-webkit-scrollbar-thumb {
+  background: #023356;
+  border-radius: 6px;
+}
+.horizontal-scroll::-webkit-scrollbar-track {
+  background: #e0e6ed;
+  border-radius: 6px;
+}
+
+.service-card {
+  min-width: 260px;
+  max-width: 320px;
+  background: linear-gradient(135deg, #001d36 60%, #00bfff 100%);
+  color: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.18);
+  padding: 2rem 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.service-card:hover {
+  transform: translateY(-8px) scale(1.04);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.22);
+}
+.service-card h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.service-card p {
+  color: #fff;
+  font-size: 1rem;
+}
+.home-container {
+  padding: 3rem var(--container-padding) 0;
+  min-height: 80vh;
+  background: linear-gradient(135deg, #001d36 60%, #023356 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.hero {
+  max-width: 900px;
+  margin-left: 4vw;
+  margin-right: auto;
+  text-align: left;
+}
+
+.left-align {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.wavy-title {
+  font-size: 3.2em;
+  font-weight: 800;
+  background: linear-gradient(90deg, #001d36 20%, #00bfff 50%, #023356 80%);
+  background-size: 200% 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  animation: wave-gradient 3s ease-in-out infinite alternate;
+}
+
+@keyframes wave-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.brand {
+  color: #00bfff;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.desc {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem;
+  color: #e0e6ed;
+}
+
+.services-section {
+  margin-top: 3rem;
+  width: 90vw;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+.services-title {
+  color: #fff;
+  margin-left: 4vw;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  overflow: visible;
+}
+
+.service-card {
+  background: #023356;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.08);
+  padding: 2rem 1.5rem;
+  min-width: 220px;
+  max-width: 300px;
+  color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.service-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.13);
+}
+.service-card h2 {
+  color: #00bfff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+.service-card p {
+  color: #e0e6ed;
+  font-size: 1rem;
+}
+.why-detail {
+  font-size: 0.98rem;
+  color: #e0eaff;
+  margin-top: 0.3rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* New CTA Section */
+.cta-wide-section {
+  width: 100%;
+  min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #00bfff 0%, #023356 60%, #001d36 100%);
+  box-shadow: 0 8px 48px 0 rgba(0, 0, 0, 0.1);
+  margin: 0 auto 3.5rem auto;
+  border-radius: 2.5rem;
+  position: relative;
+  z-index: 2;
+}
+.cta-content {
+  text-align: center;
+  color: #fff;
+  padding: 3.5rem 2rem;
+  width: 100%;
+  max-width: 700px;
+}
+.cta-question {
+  font-size: 2.3rem;
+  font-weight: 800;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  color: #fff;
+  text-shadow: 0 2px 16px rgba(0, 0, 0, 0.13);
+}
+.cta-sub {
+  font-size: 1.18rem;
+  margin-bottom: 2.2rem;
+  color: #e0eaff;
+}
+.cta-explore-btn {
+  display: inline-block;
+  font-size: 1.15rem;
+  font-weight: 700;
+  padding: 1rem 2.7rem;
+  border-radius: 2.5rem;
+  background: linear-gradient(90deg, #00bfff 0%, #023356 100%);
+  color: #fff;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+.cta-explore-btn:hover {
+  background: linear-gradient(90deg, #023356 0%, #00bfff 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+@media (max-width: 768px) {
+  .hero-flex {
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .services-list {
+    padding: 0 var(--container-padding);
+  }
+
+  .service-card {
+    min-width: 100%;
+  }
+
+  .why-features-row {
+    gap: 2rem;
+  }
+
+  .why-feature {
+    min-width: calc(50% - 2rem);
+  }
+
+  .cta-wide-section {
+    border-radius: 0;
+    margin: 2rem -var(--container-padding);
+    padding: 2rem var(--container-padding);
+  }
+}
+
+@media (max-width: 576px) {
+  .why-feature {
+    min-width: 100%;
+  }
+
+  .cta-question {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,1046 @@
+/* --- Why Minnovation List --- */
+.why-minnovation-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.2rem 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  font-size: 1.13rem;
+}
+.why-minnovation-list li {
+  background: rgba(0, 191, 255, 0.08);
+  border-radius: 1rem;
+  padding: 0.9rem 1.2rem;
+  color: #e0f7fa;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.05);
+}
+.why-icon {
+  color: #00bfff;
+  font-size: 1.3rem;
+  margin-right: 0.7rem;
+}
+/* --- Contact Page Styles --- */
+.contact-container {
+  background: linear-gradient(135deg, #001d36 60%, #023356 100%);
+  color: #fff;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-hero {
+  text-align: center;
+  padding: 5rem 2rem 2rem 2rem;
+  background: linear-gradient(120deg, #00bfff 0%, #023356 60%, #001d36 100%);
+  width: 100%;
+}
+.contact-hero h1 {
+  font-size: 2.7rem;
+  color: #fff;
+  margin-bottom: 1.2rem;
+  text-shadow: 0 2px 8px rgba(0, 191, 255, 0.18);
+}
+.contact-lead {
+  font-size: 1.3rem;
+  color: #e0f7fa;
+  margin-bottom: 2.2rem;
+  line-height: 1.5;
+}
+.contact-details-card {
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 2.5rem 2rem;
+  margin: 2rem 0;
+  max-width: 500px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.contact-details-card h2 {
+  color: #00bfff;
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.13rem;
+}
+.contact-list li {
+  margin-bottom: 1rem;
+  color: #e0f7fa;
+}
+.contact-link {
+  color: #00bfff;
+  text-decoration: underline;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #fff;
+  background: linear-gradient(90deg, #00bfff 60%, #023356 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.contact-extra-info {
+  background: rgba(0, 191, 255, 0.09);
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.08);
+  padding: 2rem 1.5rem;
+  max-width: 700px;
+  margin: 2rem 0 3rem 0;
+  color: #e0f7fa;
+}
+.contact-extra-info h3 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.contact-extra-info p {
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 700px) {
+  .contact-details-card {
+    padding: 1.2rem 0.7rem;
+    max-width: 100%;
+  }
+  .contact-extra-info {
+    padding: 1.1rem 0.5rem;
+    max-width: 100%;
+  }
+  .contact-hero {
+    padding: 2.5rem 0.7rem 1.2rem 0.7rem;
+  }
+}
+/* --- CTA Message --- */
+.cta-message {
+  color: #00bfff;
+  font-size: 6rem;
+  font-weight: 900;
+  margin-bottom: 2.1rem;
+  margin-top: 1.3rem;
+  letter-spacing: 0.6px;
+  text-shadow: 0 2px 22px rgba(0, 191, 255, 0.2);
+  line-height: 1.05;
+  font-family: "Segoe UI", "Montserrat", "Arial", sans-serif;
+  background: linear-gradient(90deg, #00bfff 30%, #023356 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+@media (max-width: 1200px) {
+  .cta-message {
+    font-size: 4.5rem;
+  }
+}
+@media (max-width: 900px) {
+  .cta-message {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 600px) {
+  .cta-message {
+    font-size: 2rem;
+  }
+}
+
+/* --- Prices CTA Section --- */
+.prices-cta {
+  margin: 3rem auto 2rem auto;
+  max-width: 700px;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  animation: fadeInCta 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+  backdrop-filter: blur(6px);
+  border: 1.5px solid #00bfff33;
+}
+.prices-cta h2 {
+  color: #00bfff;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.prices-cta p {
+  color: #00bfff;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  margin-top: 0.7rem;
+  letter-spacing: 0.2px;
+  text-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+  line-height: 1.25;
+}
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #00bfff 60%, #023356 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 191, 255, 0.13);
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  margin-top: 0.5rem;
+}
+.cta-button:hover,
+.cta-button:focus {
+  background: linear-gradient(90deg, #023356 60%, #00bfff 100%);
+  color: #fff;
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(0, 191, 255, 0.18);
+}
+
+@media (max-width: 700px) {
+  .prices-cta {
+    padding: 1.5rem 0.7rem 1.5rem 0.7rem;
+  }
+  .prices-cta p {
+    font-size: 1.25rem;
+  }
+  .cta-button {
+    font-size: 1.05rem;
+    padding: 0.8rem 1.3rem;
+  }
+}
+@media (max-width: 600px) {
+  .prices-cta {
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  }
+  .prices-cta h2 {
+    font-size: 1.3rem;
+  }
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+/* --- Fade-in Animation for CTA --- */
+.animated-fadein {
+  animation: fadeInCta 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes fadeInCta {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* --- General Container --- */
+.teaching-container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #001d36 60%, #023356 100%);
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- Hero Section --- */
+.teaching-hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(120deg, #00bfff 0%, #023356 60%, #001d36 100%);
+  position: relative;
+  overflow: hidden;
+}
+.teaching-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.teaching-hero p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #e0eaff;
+  margin-bottom: 2rem;
+}
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.stat-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
+}
+.stat-item:hover {
+  transform: translateY(-10px);
+}
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00bfff;
+  margin-bottom: 0.5rem;
+}
+.stat-label {
+  font-size: 1.1rem;
+  color: #e0eaff;
+}
+
+/* --- Table Section --- */
+.levels-table {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.levels-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.levels-table th {
+  background: #00bfff;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+}
+.levels-table td {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+.levels-table tr:hover td {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* --- Program Details Section --- */
+.program-details {
+  padding: 3rem 2rem;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+}
+.program-details h3,
+.levels-division h3,
+.level-info h3,
+.sub-level-card h4,
+.competence-item,
+.session-card h5,
+.duration-card h4,
+.kids-program h2,
+.kids-content h3,
+.age-group h4,
+.kids-methodology h3 {
+  color: #00bfff !important;
+}
+
+/* Ensure 'Semaine type - Répartition des séances' title is always #00bfff */
+.session-card h5,
+h5.semaine-type-title {
+  color: #00bfff !important;
+}
+.levels-division {
+  margin: 3rem 0;
+  background: rgba(0, 191, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.05);
+}
+.level-info {
+  color: #e0f7fa;
+  font-size: 1.13rem;
+  margin: 1.2rem 0 2rem 0;
+  padding: 1.1rem 1rem;
+  background: linear-gradient(90deg, #023356 70%, #00bfff 100%);
+  border-radius: 0.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+.sub-levels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem 0;
+}
+.sub-level-card {
+  background: rgba(0, 191, 255, 0.09);
+  padding: 1.2rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #00bfff33;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.08);
+}
+.sub-level-card h4 {
+  color: #00bfff;
+  margin-bottom: 0.7rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.sub-level-card ul {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+}
+.sub-level-card li {
+  color: #f0f8ff;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(0, 191, 255, 0.08);
+  font-size: 1.01rem;
+}
+
+.competences-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.competence-item {
+  background: rgba(0, 191, 255, 0.1);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  color: #e0eaff;
+  font-weight: 500;
+}
+.session-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.session-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.session-card h5 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.session-card.optional {
+  border: 1px dashed rgba(0, 191, 255, 0.3);
+}
+.duration-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.duration-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.duration-card h4 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+.schedule-note {
+  color: #e0eaff;
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+
+/* --- Kids Section --- */
+.kids-program {
+  margin: 4rem auto 2rem auto;
+  max-width: 1200px;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+.kids-program h2 {
+  color: #00bfff;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+.kids-content h3 {
+  color: #00bfff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.kids-content p,
+.kids-content li {
+  color: #e0f7fa;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+.age-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem 0;
+}
+.age-group {
+  background: rgba(0, 191, 255, 0.13);
+  padding: 1.2rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #00bfff55;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+}
+.age-group h4 {
+  color: #00bfff;
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.kids-methodology h3 {
+  color: #00bfff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.kids-methodology p,
+.kids-methodology li {
+  color: #e0f7fa;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.content-topics p {
+  color: #e0f7fa;
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .stat-item {
+    padding: 1.5rem;
+  }
+  .program-details {
+    padding: 1.5rem;
+  }
+  .sub-levels-grid,
+  .session-cards,
+  .duration-cards,
+  .age-groups {
+    grid-template-columns: 1fr;
+  }
+  .competences-list {
+    flex-direction: column;
+  }
+  .competence-item {
+    width: 100%;
+    text-align: center;
+  }
+  .kids-program {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 600px) {
+  .teaching-container {
+    padding: 0 0.3rem;
+  }
+  .kids-program {
+    padding: 1.2rem 0.3rem;
+  }
+}
+/* --- Prices CTA Section (Simple Version) --- */
+.prices-cta {
+  margin: 3rem auto 2rem auto;
+  max-width: 600px;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+  animation: fadeInCta 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.prices-cta p {
+  color: #e0f7fa;
+  font-size: 1.13rem;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+  margin-top: 0.5rem;
+  letter-spacing: 0.1px;
+}
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #00bfff 60%, #023356 100%);
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  padding: 0.85rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 191, 255, 0.13);
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  margin-top: 0.3rem;
+}
+.cta-button:hover,
+.cta-button:focus {
+  background: linear-gradient(90deg, #023356 60%, #00bfff 100%);
+  color: #fff;
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(0, 191, 255, 0.18);
+}
+
+@media (max-width: 600px) {
+  .prices-cta {
+    padding: 1.1rem 0.5rem 1.1rem 0.5rem;
+  }
+  .prices-cta p {
+    font-size: 1rem;
+  }
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.1rem;
+  }
+}
+/* --- Fade-in Animation for CTA --- */
+.animated-fadein {
+  animation: fadeInCta 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+@keyframes fadeInCta {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* --- General Container --- */
+.teaching-container {
+  padding: 0 1rem;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #001d36 60%, #023356 100%);
+  color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+/* --- Hero Section --- */
+.teaching-hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(120deg, #00bfff 0%, #023356 60%, #001d36 100%);
+  position: relative;
+  overflow: hidden;
+}
+.teaching-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+.teaching-hero p {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #e0eaff;
+  margin-bottom: 2rem;
+}
+.hero-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}
+.stat-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 2rem;
+  border-radius: 1rem;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s;
+}
+.stat-item:hover {
+  transform: translateY(-10px);
+}
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #00bfff;
+  margin-bottom: 0.5rem;
+}
+.stat-label {
+  font-size: 1.1rem;
+  color: #e0eaff;
+}
+
+/* --- Table Section --- */
+.levels-table {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 1200px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+.levels-table table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+.levels-table th {
+  background: #00bfff;
+  color: white;
+  padding: 1.5rem;
+  font-size: 1.1rem;
+}
+.levels-table td {
+  padding: 1.5rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s;
+}
+.levels-table tr:hover td {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* --- Program Details Section --- */
+.program-details {
+  padding: 3rem 2rem;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  margin: 3rem auto;
+  max-width: 1200px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+}
+.program-details h3,
+.levels-division h3,
+.level-info h3,
+.sub-level-card h4,
+.competence-item,
+.session-card h5,
+.duration-card h4,
+.kids-program h2,
+.kids-content h3,
+.age-group h4,
+.kids-methodology h3 {
+  color: #00bfff !important;
+}
+
+/* Ensure 'Semaine type - Répartition des séances' title is always #00bfff */
+.session-card h5,
+h5.semaine-type-title {
+  color: #00bfff !important;
+}
+.levels-division {
+  margin: 3rem 0;
+  background: rgba(0, 191, 255, 0.08);
+  border-radius: 1rem;
+  padding: 2rem 1rem;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.05);
+}
+.level-info {
+  color: #e0f7fa;
+  font-size: 1.13rem;
+  margin: 1.2rem 0 2rem 0;
+  padding: 1.1rem 1rem;
+  background: linear-gradient(90deg, #023356 70%, #00bfff 100%);
+  border-radius: 0.7rem;
+  text-align: center;
+  font-weight: 500;
+}
+.sub-levels-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem 0;
+}
+.sub-level-card {
+  background: rgba(0, 191, 255, 0.09);
+  padding: 1.2rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #00bfff33;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.08);
+}
+.sub-level-card h4 {
+  color: #00bfff;
+  margin-bottom: 0.7rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.sub-level-card ul {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+}
+.sub-level-card li {
+  color: #f0f8ff;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid rgba(0, 191, 255, 0.08);
+  font-size: 1.01rem;
+}
+
+.competences-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.competence-item {
+  background: rgba(0, 191, 255, 0.1);
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  color: #e0eaff;
+  font-weight: 500;
+}
+.session-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.session-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.session-card h5 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.session-card.optional {
+  border: 1px dashed rgba(0, 191, 255, 0.3);
+}
+.duration-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+.duration-card {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.duration-card h4 {
+  color: #00bfff;
+  margin-bottom: 1rem;
+}
+.schedule-note {
+  color: #e0eaff;
+  font-style: italic;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+}
+
+/* --- Kids Section --- */
+.kids-program {
+  margin: 4rem auto 2rem auto;
+  max-width: 1200px;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 3rem 1rem;
+  box-sizing: border-box;
+}
+.kids-program h2 {
+  color: #00bfff;
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+.kids-content h3 {
+  color: #00bfff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.kids-content p,
+.kids-content li {
+  color: #e0f7fa;
+  font-size: 1.08rem;
+  line-height: 1.6;
+}
+.age-groups {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0 2.5rem 0;
+}
+.age-group {
+  background: rgba(0, 191, 255, 0.13);
+  padding: 1.2rem 1rem;
+  border-radius: 1rem;
+  border: 1px solid #00bfff55;
+  box-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+}
+.age-group h4 {
+  color: #00bfff;
+  margin-bottom: 0.7rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.kids-methodology h3 {
+  color: #00bfff;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.kids-methodology p,
+.kids-methodology li {
+  color: #e0f7fa;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+.content-topics p {
+  color: #e0f7fa;
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+}
+
+/* --- Prices CTA Section --- */
+.prices-cta {
+  margin: 3rem auto 2rem auto;
+  max-width: 700px;
+  background: linear-gradient(120deg, #01294a 60%, #023356 100%);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
+  color: #f0f8ff;
+  padding: 2.5rem 2rem 2rem 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.prices-cta h2 {
+  color: #00bfff;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.prices-cta p {
+  color: #00bfff;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  margin-top: 0.7rem;
+  letter-spacing: 0.2px;
+  text-shadow: 0 2px 8px rgba(0, 191, 255, 0.1);
+  line-height: 1.25;
+}
+.cta-button {
+  display: inline-block;
+  background: linear-gradient(90deg, #00bfff 60%, #023356 100%);
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  padding: 0.9rem 2.2rem;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 191, 255, 0.13);
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
+  margin-top: 0.5rem;
+}
+.cta-button:hover,
+.cta-button:focus {
+  background: linear-gradient(90deg, #023356 60%, #00bfff 100%);
+  color: #fff;
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 6px 24px rgba(0, 191, 255, 0.18);
+}
+
+@media (max-width: 600px) {
+  .prices-cta {
+    padding: 1.2rem 0.7rem 1.2rem 0.7rem;
+  }
+  .prices-cta h2 {
+    font-size: 1.3rem;
+  }
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.2rem;
+  }
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .hero-stats {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .stat-item {
+    padding: 1.5rem;
+  }
+  .program-details {
+    padding: 1.5rem;
+  }
+  .sub-levels-grid,
+  .session-cards,
+  .duration-cards,
+  .age-groups {
+    grid-template-columns: 1fr;
+  }
+  .competences-list {
+    flex-direction: column;
+  }
+  .competence-item {
+    width: 100%;
+    text-align: center;
+  }
+  .kids-program {
+    padding: 1.5rem;
+  }
+}
