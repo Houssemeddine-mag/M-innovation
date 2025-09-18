@@ -1,4 +1,4 @@
-proposition de service informatique dans le domaine informatique comprenant:
+proposition de service professionel dans le domaine informatique et enseignement de langue comprenant:
 - creation de site web personalisé
 - creation des application mobile personalisé
 - design graphique
