@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logo from "../assets/INovation1.png";
+import logo from "../assets/INovation.png";
 import "./TopBar.css";
 
 export default function TopBar() {
